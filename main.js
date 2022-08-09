@@ -11,7 +11,7 @@ Array.from(btns).forEach(btn => {
     })
 })
 
-submitBtn.addEventListener('click', e => {
+submitBtn.addEventListener('click', () => {
     card2.style.display = 'block';
     card.style.display = 'none';
 })
