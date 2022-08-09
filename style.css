@@ -1,0 +1,148 @@
+body {
+    background-color: #141519;
+}
+
+.App {
+    text-align: center;
+    font-size: 15px;
+    font-family: var(--font);
+    color: var(--White);
+}
+
+.centerY {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+:root {
+    --Orange: hsl(25, 97%, 53%);
+    --White: hsl(0, 0%, 100%);
+    --LightGrey: hsl(217, 12%, 63%);
+    --MediumGrey: hsl(216, 12%, 54%);
+    --DarkBlue: hsl(213, 19%, 18%);
+    --VeryDarkBlue: hsl(216, 12%, 8%);
+    --font: 'Overpass', sans-serif;
+    --rateButtonBackground: #272E38;
+}
+
+.cardHolder {
+    width: 375px;
+    margin: auto;
+    text-align: left;
+    padding: 40px;
+    background: radial-gradient(at top, #232A34, #171E28);
+    border-radius: 20px;
+}
+
+.starBackground {
+    height: 50px;
+    width: 50px;
+    background-color: #262F38;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.starImgHolder {
+    width: 50px;
+    height: 50px;
+    display: flex;
+}
+
+.starImgHolder img {
+    margin: auto;
+}
+
+p {
+    letter-spacing: 0.5px;
+    line-height: 23px;
+    margin-top: -5px;
+    margin-bottom: 30px;
+    color: var(--MediumGrey);
+}
+
+.rateButtonsHolder {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.rateButton {
+    background-color: var(--rateButtonBackground);
+    color: var(--White);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 0px;
+}
+
+.rateButton:hover {
+    background-color: var(--LightGrey);
+}
+
+.rateButton:focus {
+    background-color: var(--Orange);
+}
+
+.submitButton {
+    width: 100%;
+    border-radius: 20px;
+    padding: 15px 0;
+    letter-spacing: 3px;
+    font-weight: 700;
+    color: var(--White);
+    background-color: var(--Orange);
+    border: 0px;
+}
+
+.submitButton:hover {
+    background-color: #fff;
+    color: var(--Orange);
+}
+
+.cardHolder2 {
+    width: 375px;
+    margin: auto;
+    text-align: left;
+    padding: 40px;
+    background: radial-gradient(at top, #232A34, #171E28);
+    border-radius: 20px;
+    display: none;
+}
+
+.thankYouImg img {
+    margin: auto;
+    width: 150px;
+}
+
+.thankYouImg span {
+    background-color: var(--DarkBlue);
+    margin-top: 30px;
+    width: fit-content;
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 30px;
+    border-radius: 20px;
+}
+
+.thankYouImg p {
+    margin-top: 4px;
+    color: var(--Orange);
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.text {
+    margin-top: 20px;
+}
+
+.text p {
+    width: 365px;
+}
